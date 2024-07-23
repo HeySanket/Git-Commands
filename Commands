@@ -1,2 +1,10 @@
-Git rm filename / to delete file
-Git mv filename filename / to change the file name
+
+git init; / to initialize got repo in folder .git folder;
+git config --global user.name 'name';
+git config --global user.mail 'name@gmail.com';
+git status; git checkout -b branchName; 
+to create branch; git checkout branchName;
+to swith branch; git branch;
+git add --a / git add . / git add fileName; 
+git commit -m "msg"; 
+git log; tuch fileName / to create file from cmd; TO DELETE AND RENAME FILE:- Git rm filename; to delete the file; Git mv filename filename; / to change the file name; Git restore --staged filename; / Add keleli fine unadd karay; Git checkout -- filename ctl z revert changes for single file; Git checkout -f to all files ctl Z revert changes for all file; git merge filename; form main branch; git push origin branchName; to push branch online; you have to stay in same branch ; git branch -d fileName; to delete branch main branch varun karne. local branch delete karay; git push -d origin branchName; to delete form online; TO PUCH CHANGES:- git push -u origin branchName; git remote add origin git@github.com:User/UserRepo.git; SHH key- ssh-keygen -t rsa -b 4096 -C "your_email@example.com"; eval "$(ssh-agent -s)"; ssh-add ~/.ssh/id_rsa; tail ~/.ssh/id_rsa.pub;
